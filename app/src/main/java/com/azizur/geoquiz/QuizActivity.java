@@ -32,7 +32,20 @@ public class QuizActivity extends AppCompatActivity {
         });
 
         mTrueButton = (Button) findViewById(R.id.true_button);
-        mFalseButton= (Button) findViewById(R.id.false_button);
+        mTrueButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Does nothing yet, but soon!
+            }
+        });
+
+        mFalseButton = (Button) findViewById(R.id.false_button);
+        mFalseButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Does nothing yet, but soon!
+            }
+        });
     }
 
     @Override
